@@ -1,0 +1,392 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"c_seconds"
+			],
+			[
+				"to",
+				"total_seconds"
+			],
+			[
+				"p",
+				"parseInt"
+			],
+			[
+				"t",
+				"total_seconds"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"a",
+				"animate"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"v",
+				"var"
+			],
+			[
+				"li",
+				"listingCable"
+			],
+			[
+				"g",
+				"getElementById"
+			],
+			[
+				"o",
+				"objJson"
+			],
+			[
+				"pag",
+				"page"
+			],
+			[
+				"A",
+				"addSomething"
+			],
+			[
+				"m",
+				"max-height"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"text-d",
+				"text-decoration"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"F",
+				"F5F5F5"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"sa",
+				"Sans-serif"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"u",
+				"ul\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/USER/Desktop/ALL/Rocket-Design-Starter-Files/Rocket Design Starter Files/index.html",
+		"/C/Users/USER/Desktop/ALL/Rocket-Design-Starter-Files/Rocket Design Starter Files/style.css",
+		"/C/Users/USER/Desktop/myweb/index.html",
+		"/C/Users/USER/Desktop/practical layout/css/styles.css",
+		"/C/Users/USER/Desktop/practical layout/index.html",
+		"/C/Users/USER/Desktop/Rocket-Design-Starter-Files/Rocket Design Starter Files/index.html",
+		"/C/Users/USER/Desktop/myweb/css/styles.css",
+		"/C/Users/USER/Desktop/Rocket-Design-Starter-Files/Rocket Design Starter Files/style.css"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "styles.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

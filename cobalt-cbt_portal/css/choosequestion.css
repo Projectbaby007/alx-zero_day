@@ -1,0 +1,101 @@
+@import url("font-awesome.min.css");{
+
+	}
+		body{
+			background-color: #364054;
+		}
+		#kontain{
+			margin:auto;
+			width: 100%;
+			text-align: center;
+			margin-top: 150px;
+			height: 100%;
+
+			 
+
+		}
+		 
+		#majorcontent{
+			width:80%;
+			height: 250px;
+			 background-color:#aefedd;
+			 background-image: url(jamb4.png);
+			 background-repeat: no-repeat;
+			 background-position: center;
+			 background-size: 700px;
+			  margin-left: 10%;	 
+			position: relative;
+			top:-50px;
+			 
+			}
+			#kingz1{
+				 font-family: 'Bookman Old Style';
+				 font-size: 50px;
+				 font-weight: bold;
+				 color: #0C522E;
+				 text-shadow: #F99200 1px 2px;
+				 padding-top: 40px;
+
+
+			}
+			 .question{
+ 			 
+ 			display: inline;
+ 			background: transparent;
+    		 
+ 			font-family: 'Alegreya Sans', Sans-serif;
+ }
+	 #slct1{
+	 	width: 20%;
+	 	 
+	 	border:5px solid #ccc;
+	 	-webkit-border-radius:5px;
+	 	-moz-border-radius:5px;
+	 	border-radius: 5px;
+	 	background-color:  #6991AC;
+	 	box-shadow: 1px 1px 11px #330033;
+	 	font-size: 20px;
+	 	font-weight:  bold;
+	 	overflow: scroll;
+	 	margin-left: 100px;
+	 	font-family: 'Bookman Old Style';
+	 	color: #F99200;
+	 	text-shadow: #fff 1px 1px;
+
+	 }
+	 option[value]{
+	 	color: white;
+	 	border-bottom: 5px;
+	 	padding: 10px;
+	 	margin: 4px;
+	 	font-weight: bold;
+	 	font-size: 20px;
+	 	overflow: scroll;
+	 	color: #fff;
+	 	font-family: 'Bookman Old Style';
+	 }
+	 #slct2{
+	 	width: 20%;
+	 	height: 35px;
+	 	border:5px solid #ccc;
+	 	-webkit-border-radius:5px;
+	 	-moz-border-radius:5px;
+	 	border-radius: 5px;
+	 	background-color: #6991AC;
+	 	box-shadow: 1px 1px 11px #330033;
+	 	margin-left: 40%;
+	 	overflow: scroll;
+	 	color: #fff;
+	 	font-family: 'Bookman Old Style';
+	 	font-weight: bold;
+
+	 }
+
+		 
+		img{
+			width: 120px;
+			margin-left: -15px;
+			float: left;
+		}
+		 
+ 

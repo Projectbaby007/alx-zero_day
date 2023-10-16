@@ -1,0 +1,412 @@
+@import url("font-awesome.min.css");{
+
+	}
+		body{
+			background-color: #364054;
+		}
+		#contain{
+			margin:auto;
+			width: 100%;
+			text-align: center;
+			margin-top: 100px;
+			height: 100%;
+			 
+
+		}
+		#box1{
+			position: fixed;
+			margin-top: -5px;
+			color: #aefedd;
+			font-size: 15px;
+			font-weight: bold;
+
+
+			
+		}
+		 
+		#mainhead{
+			width:70%;
+			height: 450px;
+			 background-color:#fff;
+			 
+			 background-repeat: no-repeat;
+			 background-position: center;
+			  margin-left: 20%;	 
+			position: relative;
+			top:10px;
+			overflow: auto;
+			 
+			}
+			#kingz{
+				 font-family: 'Bookman Old Style';
+				 font-size: 50px;
+				 font-weight: bold;
+				 color: #fff;
+				 text-shadow: #F99200 1px 2px;
+
+			}
+
+			#imagebox{
+				margin-top: -10px;
+				background-image: url(book1.png);
+				 background-size: 100%;
+				 width: 100%;
+				 height: 400px;
+				 background-repeat: no-repeat;
+			}
+			#header{
+				list-style: none;
+
+			}
+			#chapterone{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;
+
+			}
+			#chaptertwo{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chapterthree{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chapterfour{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chapterfive{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chaptersix{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chapterseven{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chaptereight{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chapternine{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chapterten{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chaptereleven{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chaptertwelve{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chapterthirteen{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chapterfourteen{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chapterfifteen{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+
+			#chaptersixteen{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chapterseventeen{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+
+			#chaptereighteen{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+
+			#chapternineteen{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chaptertwenty{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chaptertwentyone{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chaptertwentytwo{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chaptertwentythree{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chaptertwentyfour{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chaptertwentyfive{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chaptertwentysix{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+
+			#chaptertwentyseven{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chaptertwentyeight{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+			#chaptertwentynine{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+
+			#chapterthirty{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+
+			#chapterthirtyone{
+				margin-bottom: 12px; 
+				margin-top:0px; 
+				background-color: grey;
+				 width: 100%; 
+				 height:25px; 
+				 font-size: 20px; 
+				font-weight: bolder; 
+				font-family: 'Bookman Old Style'; 
+				color: #fff;"
+			}
+
+
+
+

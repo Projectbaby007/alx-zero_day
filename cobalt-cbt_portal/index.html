@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   
+    <link rel="stylesheet" type="text/css" href="css/try.css">
+     <link rel="stylesheet" type="text/css" href="css/modal.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     
+    
+    
+    <title>Quiz App</title>
+
+ 
+
+  </head>
+
+ 
+     <body>
+       
+       <section id="theResult">
+   <h4 class="slip"> COBALT JAMB CBT PRACTICE </h4>
+
+    <div id="line" >
+      <div id="student">
+      <h5 id="cand" style="text-decoration: underline;"> Candidate results</h5>
+        <h3 id="correctAns" style="font-weight: bold; font-size: 40px;  color: #fff;"></h3>
+      
+    </div>
+       
+    </div>
+    <div id="details" style=" text-decoration:underline;">
+      <h5> Examination Details</h5>
+    </div>
+    
+    <div id="user">
+       
+    </div>
+    
+     <div id="print-content" style="float: left; margin-top: 300px;">
+       
+        <button id="btn" style="font-size: 15px;  font-weight: bold;"  onclick="window.print()">Print</button>
+        
+       
+     </div>
+
+<div id="resultCircle" style="color: white;">
+Calculating Your Result...
+
+</div> 
+<!-- Result Circle End -->
+<br>
+<!-- <h1>Congrats! Your Are Passed</h1> -->
+ <br>
+ <br>
+  <br>
+ 
+    <div id="line" ></div>
+ 
+ 
+<button class="btn btn-info" onclick="location.reload();">Retake Quiz</button>
+</section>
+
+<!-- The Result -->
+<!--New result area-->
+ 
+         
+   
+  <!-- TOP AND TITLE BAR    -->
+         
+             
+
+<!--end TOP AND TITLE BAR    -->
+
+<!-- LOGIN    -->
+ 
+
+
+   <div class="row">
+      <div class="welcome large-12 columns">
+        <h4 id="welcome" style="font-size: 35px; font-weight: 500px; margin-left: 500px;">Computer Based Test Demo<br><b style="color: #FFF; font-size: 30px; font-weight: bolder; margin-left: 150px;">2021</b> </h4>
+        <p id="smallcon" style="font-size: 16px; margin-left: 600px; color: blue;">Please Kindly enter a Username </p>
+        
+         
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="login" class="loginMain large-6 medium-6 small-12 columns ">
+        <form id="" action="" class="loginForm" name="loginForm">
+          <div class="row">
+            <div id="login" style="margin-left: 550px;">
+              <div>
+                 
+                <input type="text" id="userName" name="userName" placeholder="Username" autofocus="true" style="width: 40%; height: 25px;" />
+              </div>
+            
+              </script>
+
+              <div class="warning">
+                <small id="userWarning" style="color: #F99200;" class="">
+                  
+                </small>
+              </div>
+            </div>
+          </div>
+ 
+          <div class="row">
+            <div class="submit">
+              <input type="submit" id="loginBtn" class="buttons"    value="START EXAM"   style="margin-left: 620px;" />
+
+              
+
+            </div>
+
+            <div class="notify">
+              <small id="accountNotify"   class=""></small>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+
+
+    
+  
+
+<!-- end LOGIN   -->
+
+<!-- QUIZ   -->
+
+    <div class="row" id ="quizContainer">
+      <div  class="callout default-primary-color medium-8 small-12 columns" >
+
+        
+
+        <!-- message and start area  -->
+        <div class="row" >
+          <div id="quizNotify" class="message small-11 columns">
+            <div id="submitBtn" style="margin-left: 500px;  " class="quizButton large-2">
+              <input type="button" id="scoreButton" style="width: 20%; font-size: 20px;" class="buttons" value="Submit" />
+            </div>
+            <div id="quiz-time-left" style="color: white; width: 400px; font-size: 25px; padding: 20px; margin-left: 800px; font-weight: 300px; "></div>
+            <div id="Time-Warning" style="color: red; width: 400px; font-size: 25px;   margin-left: 500px; "></div>
+
+            
+ <!-- calculator button -->
+    <button id="calBtn">Calculator</button> 
+                 
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="calc-container">
+        <form name="calculator">
+            <input type="text" id="text1" name="answer">
+                      <br>
+            <input type="button" id="button1" value="1" onclick="calculator.answer.value += '1'">
+            <input type="button" id="button1" value="2" onclick="calculator.answer.value += '2'">
+            <input type="button" id="button1" value="3" onclick="calculator.answer.value += '3'">
+            <input type="button" id="button1" value="+" onclick="calculator.answer.value += '+'">
+            <br>
+
+            <input type="button" id="button1" value="4" onclick="calculator.answer.value += '4'">
+            <input type="button" id="button1" value="5" onclick="calculator.answer.value += '5'">
+            <input type="button" id="button1" value="6" onclick="calculator.answer.value += '6'">
+            <input type="button" id="button1" value="-" onclick="calculator.answer.value += '-'">
+            <br>
+
+            <input type="button" id="button1" value="7" onclick="calculator.answer.value += '7'">
+            <input type="button" id="button1" value="8" onclick="calculator.answer.value += '8'">
+            <input type="button" id="button1" value="9" onclick="calculator.answer.value += '9'">
+            <input type="button" id="button1" value="*" onclick="calculator.answer.value += '*'">
+            <br>
+            <input type="button" id="button1" value="c" onclick="calculator.answer.value = ''">
+            <input type="button" id="button1" value="0" onclick="calculator.answer.value += '0'">
+            <input type="button" id="button1" value="=" onclick="calculator.answer.value = eval(calculator.answer.value)">
+            <input type="button" id="button1" value="/" onclick="calculator.answer.value += '/'">
+            <br>
+            <input type="button" id="button1" value="." onclick="calculator.answer.value += '.'"> 
+
+
+
+        </form>
+        
+    </div>
+  </div>
+
+</div>
+
+
+
+         
+             <h4 id="message" style="font-size: 28px; margin-left: 400px;"></h4>
+
+              
+             <div id="results" style="font-size: 30px;" class="results"></div>
+          </div>
+        </div>
+
+        <!-- quiz question area  -->
+        <div class="row">
+          <div id="formContainer" class="main">
+            <form id="form1" class="answer" action="" name="form1">
+            </form>
+          </div>
+
+        </div>
+
+        <!-- quiz buttons area  -->
+        <div class="row">
+          <div id="quizButtons" class="quizButtons large-10 medium-10 columns">
+            <div id="previous"  class="quizButton large-2">
+              <input type="button" id="prevButton" class="buttons" value="Previous" />
+            </div>
+            <div id="next"  class="quizButton large-2">
+              <input type="button" id="nextButton" class="buttons" value="Next" />
+            </div>
+           
+          </div>
+        </div>
+
+        <!-- warning message area  -->
+				<div class="row large-10 medium-10 columns">
+							<!-- warning in case question is not answered  -->
+     		   <div class="warning">
+        	  <small id="warning" class=""></small>
+      	  </div>
+				</div>
+
+        <section> 
+  <span id="page_info">You are currently viewing page <label id="curr_page"></label></span>
+  
+  <ul id="results"></ul>
+  
+  <nav>
+    <ul id="page_nav">
+      
+    </ul>
+  </nav>
+</section>
+ 
+        </div>
+
+      </div>
+    </div>
+    
+  
+<!-- end QUIZ   -->
+
+<!-- The Result -->
+
+     
+
+    
+    
+  </div>
+  <!--end of result area-->
+
+
+
+  <script src= "js/jquery-1.11.1.min.js"></script>  
+  <script type="text/javascript" src="js/script.js"></script>
+  
+<script src="js/foundation.min.js"></script>  
+ 
+    </body>

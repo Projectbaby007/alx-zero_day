@@ -1,0 +1,484 @@
+@import url("font-awesome.min.css");{
+
+	}
+		body{
+			background-color: #364054;
+		}
+		#container{
+			margin:auto;
+			width: 1000px;
+			text-align: center;
+			margin-top: 100px;
+			height: 100%;
+
+		}
+		#box1{
+			position: fixed;
+			margin-top: -5px;
+			color: #aefedd;
+			font-size: 15px;
+			font-weight: bold;
+
+			
+		}
+		#box2{
+			box-shadow: 2px 2px 2px #888;
+			width: 230px;
+			height: 100px;
+			background-color: #366154;
+			color: #fff;
+			font-size: 20px;
+			font-weight: bold;
+			text-decoration-style: none;
+
+
+
+			
+		}
+		#content{
+			width:750px;
+			height: 220px;
+			 background-color:#aefedd;
+			 background-image: url(jamb4.png);
+			 background-repeat: no-repeat;
+			 background-position: center;
+			 background-size: 700px;
+
+			float:right;
+			position: relative;
+			top:-215px;
+			 
+			}
+			.kingz{
+				 font-family: 'Bookman Old Style';
+				 font-size: 50px;
+				 font-weight: bold;
+				 color: #0C522E;
+				 text-shadow: #F99200 1px 2px;
+
+			}
+
+		 
+		img{
+			width: 120px;
+			margin-left: -15px;
+
+			float: left;
+		}
+		#infos{
+			float: left;
+			margin-right: 10px;
+			padding:5px 10px;
+			background-color: #368154;
+			font-size: 18px;
+			color: #aefedd;
+		}
+		.header{
+			margin-bottom: -15px; 
+			list-style: none;
+			display: inline-block;
+			margin-left: 90px;
+
+
+		}
+		 
+		 #txt{
+		 	 
+		 	padding-top: 25px;
+
+		 }
+		 #box2 :hover{
+		 	color: #aefedd;
+
+		 }
+		 #box3{
+		 	box-shadow: 2px 2px 2px #888;
+			width: 230px;
+			height: 100px;
+			background-color: #366154;
+			color: #fff;
+			font-size: 20px;
+			font-weight: bold;
+			text-decoration-style: none;
+
+		 }
+		  #box4{
+		 	box-shadow: 2px 2px 2px #888;
+			width: 230px;
+			height: 100px;
+			background-color: #366154;
+			color: #fff;
+			font-size: 20px;
+			font-weight: bold;
+			text-decoration-style: none;
+
+		 }
+		  #box5{
+		 	box-shadow: 2px 2px 2px #888;
+			width: 230px;
+			height: 100px;
+			background-color: #366154;
+			color: #fff;
+			font-size: 20px;
+			font-weight: bold;
+			text-decoration-style: none;
+
+		 }
+
+
+
+		 * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  width: 1000px;
+height: 100px;
+background-color: #368154;
+margin-top: 15px;
+
+}
+
+/* Hide the images by default */
+
+
+/* Next & previous buttons */
+ 
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color:  rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+#text {
+  color: #f2f2f2;
+  font-size: 19px;
+  padding: 28px 12px;
+  margin-left: 20px;
+   
+  
+}
+#ans{
+	color: #f2f2f2;
+	font-size: 19px;
+	 float: left;
+
+	 
+	 padding: 28px 35px;
+
+}
+
+
+/* Number text (1/3 etc) */
+  
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color:  #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+/* The Modal (background) */
+.modal {
+
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 300px;
+    top: 80px;
+    width: 50%; /* Full width */
+    height: 50%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 7px solid #886;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* The Modal1 (background) */
+.modal1 {
+
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 300px;
+    top: 80px;
+    width: 50%; /* Full width */
+    height: 50%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#submit{
+	display:block;
+	position:relative;
+	margin:10px auto 10px auto;
+	padding:7px;
+	border:#F99200 2px solid;
+	width:100px;
+	text-transform:uppercase;
+	text-align:center;
+	color:#FFF;
+	background-color:#364054;
+	border-radius: 0px;
+	text-decoration:none;
+  	outline:0!important;
+  	font-size: 16px;
+  	font-weight: bolder; 
+
+}
+#password{
+	width: 250px;
+	text-align: center;
+	height: 40px;
+	border: #F99200 2px solid;
+}
+
+/* Modal Content */
+.modal-content1 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+/* The Close Button */
+.close1 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*alert box css*/
+	#modalContainer {
+	background-color:rgba(0, 0, 0, 0.3);
+	position:absolute;
+  top:0;
+	width:100%;
+	height:100%;
+	left:0px;
+	z-index:10000;
+	background-image:url(tp.png); /* required by MSIE to prevent actions on lower z-index elements */
+}
+
+#alertBox {
+	position:relative;
+	width:33%;
+	min-height:100px;
+  max-height:400px;
+	margin-top:50px;
+	border:1px solid #fff;
+	background-color:#fff;
+	background-repeat:no-repeat;
+  top:30%;
+  font-weight: bolder;
+  font-size: 20px;
+  color: red;
+  font-family: 'Bookman Old Style';
+}
+
+#modalContainer > #alertBox {
+	position:fixed;
+}
+
+#alertBox h1 {
+	margin:0;
+	font:bold 1em Raleway,arial;
+	background-color:#364054;
+	color:#FFF;
+	border-bottom:1px solid #f97352;
+	padding:10px 0 10px 5px;
+}
+
+#alertBox p {
+	height:50px;
+	padding-left:5px;
+  padding-top:30px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+#alertBox #closeBtn {
+	display:block;
+	position:relative;
+	margin:10px auto 10px auto;
+	padding:7px;
+	border:0 none;
+	width:70px;
+	text-transform:uppercase;
+	text-align:center;
+	color:#FFF;
+	background-color:#364054;
+	border-radius: 0px;
+	text-decoration:none;
+  outline:0!important;
+}
+
+/* unrelated styles */
+
+#mContainer {
+	position:relative;
+	width:600px;
+	margin:auto;
+	padding:5px;
+	border-top:2px solid #fff;
+	border-bottom:2px solid #fff;
+}
+
+h1,h2 {
+	margin:0;
+	padding:4px;
+}
+
+code {
+	font-size:1.2em;
+	color:#069;
+}
+
+#credits {
+	position:relative;
+	margin:25px auto 0px auto;
+	width:350px; 
+	font:0.7em verdana;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	height:90px;
+	padding-top:4px;
+}
+
+#credits img {
+	float:left;
+	margin:5px 10px 5px 0px;
+	border:1px solid #000000;
+	width:80px;
+	height:79px;
+}
+
+.important {
+	background-color:#F5FCC8;
+	padding:2px;
+
+}
+
+@media (max-width: 600px) 
+{
+  #alertBox {
+	position:relative;
+	width:90%;
+  top:30%;
+}
+/*end of alert box*/
+
+@media only screen and (min-width:  400px) {
+	#container{
+			margin:auto;
+		 
+			text-align: center;
+			margin-top: 100px;
+			 
+
+		}
+		#box1{
+			 
+			margin-top: -5px;
+			color: #aefedd;
+			font-size: 15px;
+			font-weight: bold;
+
+			
+		}
+		#box2{
+			box-shadow: 2px 2px 2px #888;
+			background-color: #366154;
+			color: #fff;
+			font-size: 20px;
+			font-weight: bold;
+			text-decoration-style: none;
+
+			
+		}
+		#content{
+		 
+			 background-color:#aefedd;
+			 background-image: url(jamb4.png);
+			 background-repeat: no-repeat;
+			 background-position: center;
+			 background-size: 700px;
+
+			float:right;
+			position: relative;
+			 
+			 
+			}
+
+	}
